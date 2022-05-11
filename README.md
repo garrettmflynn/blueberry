@@ -31,18 +31,16 @@ In order to use your device in other projects, you'll have to link it using one 
 
 #### Browser
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/@brainsatplay/device"></script>
+<script src="https://cdn.jsdelivr.net/npm/@brainsatplay/blueberry"></script>
 ```
 
 #### Module
 
 ```javascript
-import device from `https://cdn.jsdelivr.net/npm/@brainsatplay/device`
-```
-
-#### Node.js
-```javascript
-const device = require(`https://cdn.jsdelivr.net/npm/@brainsatplay/device`)
+import device from `https://cdn.jsdelivr.net/npm/@brainsatplay/blueberry`
 ```
 
 Have fun with your data!
+
+## Known Issues
+1. This repository only grabs short wave data available on both v2020 and v2021 Blueberry devices.
